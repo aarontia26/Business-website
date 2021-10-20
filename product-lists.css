@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #4682B4;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+nav li {
+    float: left;
+}
+
+nav .right {
+      float: right;
+}
+  
+nav .left {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+}
+  
+nav a {
+    display: block;
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+nav a:hover {
+    background-color: #191970;
+}
+
+.product-category {
+    margin: 60px 0px 0px 90px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #4682B4;
+    font-family: 'Crimson Text', serif;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table .product-image {
+     padding: 10px 20px 5px 20px;
+}
+
+table .product-image1 {
+    padding: 60px 20px 5px 20px;
+}
+
+table .product-image2 {
+    padding: 10px 20px 5px 20px;
+}
+
+table .product-image3 {
+    padding: 60px 20px 5px 20px;
+}
+
+table .product-name {
+    padding: 0px 20px 10px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table .product-price {
+    padding: 0px 20px 0px 20px;
+}
+
+table button {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 6px 20px;
+}
+
+table button:hover {
+    background-color: #191970;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4682B4;
+    min-height: 9vh;
+    margin-top: 80px;
+    color: white;
+    letter-spacing: 2px;
+}
